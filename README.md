@@ -30,7 +30,7 @@ Example:
 
 ## Heuristic Evaluation Function Design
 
-In the assignment, the heuristic functions for both A* and Greedy Best-First search algorithms were implemented. The heuristic function, denoted as `h`, is used exclusively within these heuristic searches. The function is defined in Python as follows:
+The heuristic functions for both A* and Greedy Best-First search algorithms were implemented. The heuristic function, denoted as `h`, is used exclusively within these heuristic searches. The function is defined in Python as follows:
 
 ```python
 def h(self, state):
@@ -38,6 +38,7 @@ def h(self, state):
     Heuristic function: number of disks not in the goal position.
     """
     return len(self.goal[2]) - len(state[2])
+```
 
 ## Program Structure
 - **Class Design**: The `HanoiTower` class encapsulates the entire problem-solving process.
