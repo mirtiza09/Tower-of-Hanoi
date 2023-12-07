@@ -1,4 +1,4 @@
-# Tower of Hanoi Solver - CSE4AIF Assignment 2
+# Tower of Hanoi Solver
 ### Developer: Muhammad Irtiza
 
 ## Introduction
@@ -24,6 +24,9 @@ The state is represented using tuples, with each tuple signifying a peg and the 
 
 Example:
 - Initial State: `((5, 4, 3, 2, 1), (), ())`
+
+## Representation of State Space
+![State Space Diagram](state-space.png)
 
 ## Heuristic Evaluation Function Design
 
